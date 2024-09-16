@@ -55,7 +55,7 @@ const Cart = () => {
                 <h4>{item.title}</h4>
                 <div className="cart-item-description">
                   <div><strong>Details & Core:</strong></div>
-                  <br /> {item.description}
+                  <br /><div className='description'> {item.description}</div>
                 </div>
               </div>
               <div className="cart-item-actions">
